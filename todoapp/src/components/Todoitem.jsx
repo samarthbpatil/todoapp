@@ -11,7 +11,7 @@ export default function Todoitem({item,setTodos, todos}){
 
 
      <div className={styles.listName}>
-      {item}
+      {item.name}
       <span><button onClick={()=>handleDelete(item)} className={styles.deleteButton}>x</button></span>
     </div>
     <hr  className={styles.line}/>
