@@ -15,9 +15,15 @@
     margin: 0,auto;
 
 }
-.itemName{
+.listName{
     font-weight: bold;
     padding: 20px;
+    cursor: pointer;
+}
+.listName:hover{
+    background-color: #f9f6e4;
+    border-radius: 5px;
+    transition: 0.3s;
 }
 
 .line{
@@ -41,4 +47,9 @@
 }
 .deleteButton:hover{
     background-color: #edde13;
+}
+
+.completed{
+    text-decoration: line-through;
+    
 }

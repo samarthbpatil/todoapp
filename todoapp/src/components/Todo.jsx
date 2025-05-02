@@ -3,6 +3,7 @@ import {useState} from "react";
 import Header from "./header";
 import Form from "./Form";
 import Todolist from "./Todolist";
+import Task from "./Task";
 export default function Todo(){
     
     const [todos, setTodos] = useState([]);
@@ -10,6 +11,7 @@ export default function Todo(){
         <Header />
         <Form todos={todos} setTodos={setTodos} />
         <Todolist  todos={todos} setTodos={setTodos} />
+        <Task todos={todos}/>
 
     </div>
 }
